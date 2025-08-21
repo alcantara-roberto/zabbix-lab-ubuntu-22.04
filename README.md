@@ -118,22 +118,22 @@ zabbix-lab/
 
 - Tela Inicial do Zabbix:
 
-![Tela Inicial do Zabbix](docs/tela inicial zabbix.png)
+![Tela Inicial do Zabbix](docs/tela_inicial_zabbix.png)
 
 
 - Tela de Login do Zabbix:
 
-![Tela Login](docs/tela login.png)
+![Tela Login](docs/tela_login.png)
 
 
 - Métricas de dados:
 
-![Monitoring Latest Data](docs/monitoring latest data.png)
+![Monitoring Latest Data](docs/monitoring_latest_data.png)
 
 
 - Dashboard Personalizado Atualizado:
 
-![Dashboard Personalizado](docs/dashboard personalizado.png)
+![Dashboard Personalizado](docs/dashboard_personalizado.png)
 
 
 ---
