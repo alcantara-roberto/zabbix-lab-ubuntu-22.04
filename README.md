@@ -110,12 +110,30 @@ zabbix-lab/
 │── .gitignore        # Arquivos ignorados pelo Git
 │── docs/             # Prints de tela e diagramas
 │── scripts/          # Scripts auxiliares
-│── notes/            # Anotações e configs adicionais
 ```
 
 ---
 
 ## 📸 Evidências
+
+- Tela Inicial do Zabbix:
+
+![Tela Inicial do Zabbix](docs/tela inicial zabbix.png)
+
+
+- Tela de Login do Zabbix:
+
+![Tela Login](docs/tela login.png)
+
+
+- Métricas de dados:
+
+![Monitoring Latest Data](docs/monitoring latest data.png)
+
+
+- Dashboard Personalizado Atualizado:
+
+![Dashboard Personalizado](docs/dashboard personalizado.png)
 
 
 ---
