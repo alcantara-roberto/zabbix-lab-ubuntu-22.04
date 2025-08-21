@@ -120,6 +120,21 @@ zabbix-lab/
 
 ---
 
+### 📝 Observações e Aprendizados do Projeto
+
+Durante a montagem deste laboratório, enfrentei alguns desafios que foram cruciais para o meu aprendizado e aprofundamento técnico:
+
+* **Compatibilidade de Versão:** Inicialmente, tentei executar o projeto em uma VM com `Ubuntu 24.04 LTS` e encontrei erros de dependências (`unmet dependencies`). Isso reforçou a importância de sempre utilizar a versão do sistema operacional especificada na arquitetura do projeto. Reinstalei a VM com a versão correta, **`Ubuntu 22.04 LTS`**, para garantir total compatibilidade com os pacotes do Zabbix 6.0.
+
+* **Ordem de Execução de Comandos:** Em uma nova VM, deparei-me com o erro `Unable to locate package`. Este problema ocorreu porque a etapa de instalação (`apt install`) foi executada antes da adição e atualização do repositório oficial do Zabbix. A sequência correta e fundamental para o sucesso da instalação é:
+    1.  Adicionar a nova fonte de software (`dpkg -i zabbix-release...`).
+    2.  Atualizar a lista de pacotes do sistema para incluir as novas fontes (`apt update`).
+    3.  Instalar o pacote desejado (`apt install`).
+
+Este processo de troubleshooting foi extremamente valioso para solidificar meu conhecimento em gerenciamento de pacotes e dependências em ambientes Linux.
+
+---
+
 ## ✨ Conclusão
 Este laboratório é uma forma prática de aprender sobre **monitoramento de infraestrutura com Zabbix**, demonstrando conhecimentos técnicos em **Infraestrutura e Cloud**.
 
