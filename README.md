@@ -24,7 +24,7 @@ Este projeto tem como objetivo a criação de um **laboratório prático** para 
 
 ### 1️⃣ Preparação do Ambiente
 1. Instalar o [VirtualBox](https://www.virtualbox.org/) (se ainda não estiver instalado).
-2. Baixar a ISO do [Ubuntu Server 22.04 LTS]([https://ubuntu.com/download/server](https://releases.ubuntu.com/22.04/?_ga=2.149898549.2084151835.1707729318-1126754318.1683186906&_gl=1*c0yfxt*_gcl_au*MzI4NDIwMjcxLjE3NTU3ODgyMTM.)).
+2. Baixar a ISO do [Ubuntu Server 22.04 LTS](https://releases.ubuntu.com/22.04/?_ga=2.149898549.2084151835.1707729318-1126754318.1683186906&_gl=1*c0yfxt*_gcl_au*MzI4NDIwMjcxLjE3NTU3ODgyMTM.).
 3. Criar uma nova VM no VirtualBox com as seguintes configurações:
    - Nome: `zabbix-lab`
    - CPU: 2 vCPUs
