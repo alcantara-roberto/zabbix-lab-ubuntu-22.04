@@ -1,0 +1,14 @@
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos do VS Code
+.vscode/
+*.code-workspace
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+
+# Backups
+*~
