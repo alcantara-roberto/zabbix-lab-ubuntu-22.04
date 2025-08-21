@@ -8,7 +8,6 @@ Este projeto tem como objetivo a criação de um **laboratório prático** para 
 - Instalar e configurar o **Zabbix Server** em uma máquina virtual Linux.
 - Configurar o **Zabbix Agent** para monitorar o próprio servidor e serviços locais.
 - Criar **dashboards e gráficos** no Zabbix para acompanhar métricas de CPU, memória, disco e rede.
-- Documentar todo o processo para servir como **portfólio no GitHub**.
 
 ---
 
